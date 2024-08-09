@@ -54,10 +54,12 @@ div.title:hover {
 }
 
 .social-media-wrapper{
-  margin-top: 16px;
   display: flex;
   gap: 15px;
+  margin: 1rem auto;
+  max-width: fit-content;
 }
+
 .about-me{
   width: 100%;
   display: flex;
@@ -77,8 +79,8 @@ div.title:hover {
 .skill-header {
   width: max-content;
   margin: 10px auto;
-  padding: 1rem;
-  font-size: 1.5rem;
+  padding: 5px 1rem;
+  font-size: 1.2rem;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 .welcome-text{
@@ -86,6 +88,31 @@ div.title:hover {
   font-size: 3.5rem;
   font-weight: 300;
   margin: 0;
+}
+
+.skill-row {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.skill-row div{
+  padding: 10px 16px;
+  font-size: 1.2rem;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+.skill-row div img{
+  vertical-align: middle;
+  height: 30px;
+  width: 30px;
+  margin-right: 5px;
+}
+.skill-row div span{
+  vertical-align: middle;
 }
 .welcome-text::after{
   content: '.';

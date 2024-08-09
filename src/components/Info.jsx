@@ -8,10 +8,10 @@ function Info(){
                 </p>
                 <div className="social-media-wrapper">
                     <div>
-                        <img src="src/assets/github.svg" alt=""/>
+                        <img src="src/assets/img/github.svg" alt=""/>
                     </div>
                     <div>
-                        <img src="src/assets/mail.svg" alt="mail-image"/>
+                        <img src="src/assets/img/mail.svg" alt="mail-image"/>
                     </div>
                 </div>
             </div>
