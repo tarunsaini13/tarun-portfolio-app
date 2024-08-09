@@ -19,9 +19,7 @@ function Navbar(){
                 </div>
             </div>
             <div className="cv-wrapper">
-                <span>
-                    CV
-                </span>
+                CV
             </div>
         </>
     )
