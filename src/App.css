@@ -99,7 +99,7 @@ div.title:hover {
 }
 
 .skill-row div{
-  padding: 10px 16px;
+  padding: 13px 16px;
   font-size: 1.2rem;
   margin-top: 6px;
   margin-bottom: 6px;
@@ -109,15 +109,73 @@ div.title:hover {
   vertical-align: middle;
   height: 30px;
   width: 30px;
-  margin-right: 5px;
+  margin-right: 8px;
 }
 .skill-row div span{
   vertical-align: middle;
 }
+
 .welcome-text::after{
   content: '.';
 }
+
 .about-me{
   font-size: 2rem;
+}
 
+.project-wrapper{
+  /* width: 50vw; */
+  width: 800px;
+  margin: 1rem auto;
+  border: 1px solid #fff;
+  padding: 10px;
+}
+
+.timeline{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.company-title {
+  font-size: 1.2rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  opacity: 1;
+  transform: scale(1.02) translateZ(0px);
+}
+
+.time-period {
+  font-size: 1rem;
+  text-transform: capitalize;
+}
+
+.chip{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.tech-stack-used{
+  display: flex;
+  gap: 20px;
+}
+
+.tech-stack-used div{
+  border: 1px solid #fff;
+  padding: 10px;
+}
+
+.project-title{
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: cadetblue;
+}
+
+@media (min-width: 768px) {
+  .project-wrapper {
+    width: 800px;
+  }
 }
