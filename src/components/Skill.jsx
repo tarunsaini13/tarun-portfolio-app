@@ -1,16 +1,16 @@
 function Skill(){
     const skills =  [
-        {imageFilePath : 'src/assets/img/javascript.svg', text : 'JavaScript'},   
-        {imageFilePath : 'src/assets/img/typescript.svg', text : 'Typescript'},   
-        {imageFilePath : 'src/assets/img/java.svg', text : 'Java'},   
-        {imageFilePath : 'src/assets/img/nodejs.svg', text : 'NodeJs'},   
-        {imageFilePath : 'src/assets/img/express.svg', text : 'ExpressJs'},   
-        {imageFilePath : 'src/assets/img/mysql.svg', text : 'MySql'},   
-        {imageFilePath : 'src/assets/img/pgsql.svg', text : 'PostgreSql'},   
-        {imageFilePath : 'src/assets/img/angular.svg', text : 'Angular'},   
-        {imageFilePath : 'src/assets/img/react.svg', text : 'React'},   
-        {imageFilePath : 'src/assets/img/git.svg', text : 'Git'},   
-        {imageFilePath : 'src/assets/img/ubuntu.svg', text : 'linux'}   
+        {imageFilePath : '/public/img/javascript.svg', text : 'JavaScript'},   
+        {imageFilePath : '/public/img/typescript.svg', text : 'Typescript'},   
+        {imageFilePath : '/public/img/java.svg', text : 'Java'},   
+        {imageFilePath : '/public/img/nodejs.svg', text : 'NodeJs'},   
+        {imageFilePath : '/public/img/express.svg', text : 'ExpressJs'},   
+        {imageFilePath : '/public/img/mysql.svg', text : 'MySql'},   
+        {imageFilePath : '/public/img/pgsql.svg', text : 'PostgreSql'},   
+        {imageFilePath : '/public/img/angular.svg', text : 'Angular'},   
+        {imageFilePath : '/public/img/react.svg', text : 'React'},   
+        {imageFilePath : '/public/img/git.svg', text : 'Git'},   
+        {imageFilePath : '/public/img/ubuntu.svg', text : 'linux'}   
     ]
 
     const skillCount = skills.length;
