@@ -11,12 +11,12 @@ function Info() {
                 <div className="social-media-wrapper">
                     <div>
                         <a href="https://github.com/binaryWar?tab=repositories"  target="_blank" rel="noopener noreferrer">
-                            <img src="/public/img/github.svg" alt="" />
+                            <img src="/img/github.svg" alt="" />
                         </a>
                     </div>
                     <div>
                     <a href= "mailto: satyamsingh2004@gmail.com">
-                        <img src="/public/img/mail.svg" alt="mail-image" />
+                        <img src="/img/mail.svg" alt="mail-image" />
                     </a>
                     </div>
                 </div>
