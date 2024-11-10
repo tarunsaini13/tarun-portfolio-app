@@ -5,9 +5,17 @@ function Info() {
         <section className="info-section">
             <div className="intro-wrapper">
                 <h1 className="welcome-text">Welcome</h1>
-                <p className="about-me">
-                Hi, I'm Satyam, a Full Stack Developer with over {expNum.toFixed(1)} years of experience based in India. I am passionate about crafting innovative web solutions and coding dynamic applications that make an impact.
-                </p>
+                <div className='w_0_1_wrapper'>
+                    <div style={{ width: '65%' }}>
+                        <p className="about-me">
+                        Hi, I'm Satyam, a Full Stack Developer with over {expNum.toFixed(1)} years of experience based in India. I am passionate about crafting innovative web solutions and coding dynamic applications that make an impact.
+                        </p>
+                    </div>
+                    <div className="img-wrapper">
+                        <img src="/img/me.jpg" alt="its-me" height="180px"/>
+                    </div>
+                </div>
+
                 <div className="social-media-wrapper">
                     <div>
                         <a href="https://github.com/binaryWar?tab=repositories"  target="_blank" rel="noopener noreferrer">

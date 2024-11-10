@@ -1,52 +1,69 @@
 function Project() {
-    const experineces = [
+    const experiences = [
         {
-            company_name: "Cubastion Consulting",
-            location: "Gurgaon,India",
-            duration: "jan-2021 - jan 2022",
-            descriptions : [
-                "Built a microservices driven digital platform that simplifies the lending and borrowing of digital assets for institutions, improves tracking of financial transactions, and manages digital asset liquidity",
-                "Developed an onboarding module and backend RESTful API for seamless RFQ creation, onboarding institution, enhancing real-time bidding for RFQ",
-                "Integrated Copper third-party payment Gateway for loan fee payment",
-                "Implemented AWS Key Management Service (KMS) encryption and decryption",
-                "Reduced loan listing API loading time by 30%, managed concurrent requests to prevent timeouts and and eliminated multiple transaction histories using lock mechanisms."
+            company_name: "Cubastion Consulting Pvt. Ltd.",
+            location: "Gurgaon, India",
+            duration: "Jan 2022 - Present",
+            project_name: "Digital Asset Finance Network",
+            position : "Full Stack Developer",
+            descriptions: [
+                "Built a microservices-based digital platform using Angular and Node.js to streamline lending and borrowing of digital assets, improving transaction tracking and liquidity management.",
+                "Designed and implemented an onboarding module and backend RESTful API, increasing real-time negotiation efficiency by 25% through automated RFQ creation and margin calls.",
+                "Integrated Copper payment API to secure loan transactions and implemented AWS KMS for data encryption, ensuring compliance and security.",
+                "Mentored junior developers, conducting code reviews and providing best practices, increasing the team's overall coding standards.",
+                "Implemented caching strategies using Memcached and database optimization, reducing API loading times by 30%, managing concurrent requests to prevent timeouts and duplicate transactions with lock mechanisms."
             ],
             tech_stack: [
-                "Angular16","Node.js", "PostgresSQL", "Express.js", "HTML", "CSS", "Kafka"
+                "Angular", "Node.js", "PostgreSQL", "Express.js", "S3", "AWS KMS", "Kafka", "HTML", "CSS"
             ]
         },
         {
-            company_name: "Cubastion Consulting",
-            location: "Gurgaon,India",
-            duration: "jan-2021 - jan 2022",
-            descriptions : [
-                "this is first point lorem23",
-                "this is second point",
-                "this is third point"
+            company_name: "Cubastion Consulting Pvt. Ltd.",
+            location: "Gurgaon, India",
+            duration: "Jan 2022 - Present",
+            project_name: "Insurance Claims Platform",
+            position: "Full Stack Developer",
+            descriptions: [
+                "Developed a responsive claims surveyor platform using Angular and Node.js, increasing claims processing efficiency by 30%.",
+                "Automated claim generation through a REST API, reducing manual data entry by 50% and controlling operational costs.",
+                "Incorporated OEM API updates to enhance motor insurance claim processes, streamlining workflows and decreasing manual effort by 40%."
             ],
             tech_stack: [
-                "Angular 16",
-                "Angular 16",
-                "Angular 16",
+                "Angular", "TypeScript", "HTML", "CSS", "Bootstrap 4", "Node.js", "Express.js"
             ]
         },
         {
-            company_name: "Cubastion Consulting",
-            location: "Gurgaon,India",
-            duration: "jan-2021 - jan 2022",
+            company_name: "Cubastion Consulting Pvt. Ltd.",
+            location: "Gurgaon, India",
+            duration: "Jan 2022 - Present",
             project_name: "HRMS Portal",
-            descriptions : [
-                "this is first point lorem23",
-                "this is second point",
-                "this is third point"
+            position : "Full Stack Developer",
+            descriptions: [
+                "Designed and implemented a Human Resource Management System, increasing operational efficiency by 25% through streamlined employee lifecycle and payroll processes.",
+                "Automated recruitment workflows and payroll calculations, achieving annual savings of 20 lakh INR while enhancing security with Azure OAuth2 integration.",
+                "Developed an internal pre-onboarding portal with RESTful API and Keycloak integration, reducing recruitment costs by 30%."
             ],
             tech_stack: [
-                "Angular 16",
-                "Angular 16",
-                "Angular 16",
+                "Angular", "TypeScript", "HTML", "CSS", "Bootstrap 4", "Node.js", "Express.js"
+            ]
+        },
+        {
+            company_name: "Tutree India Pvt Ltd",
+            location: "India",
+            duration: "Jul 2021 - Jan 2022",
+            project_name: "Job Portal",
+            position : "Front end Developer",
+            descriptions: [
+                "Developed a Delivery Job Portal, resulting in a 20% increase in user engagement and traffic.",
+                "Optimized the job listing page to improve user experience and streamline job searches.",
+                "Created responsive HTML email templates to notify users of new delivery job postings, enhancing user retention."
+            ],
+            tech_stack: [
+                "JavaScript", "jQuery", "HTML", "CSS"
             ]
         }
-    ]
+    ];
+
     return (
         <section>
             <div className="skill-header">
@@ -54,18 +71,19 @@ function Project() {
             </div>
             <div className="project-wrapper">
                 {
-                    experineces.map((exp, ind) => (
+                    experiences.map((exp, ind) => (
                         <div className="card">
-                            <div className="timeline">
+                            <div className="timeline pb-0">
                                 <div className="location-period"><span>{exp.location ? exp.location : ""}</span> | {exp.duration}</div>
-                                <div className="company-name">{exp.company_name}</div>
+                                <div className="company-name">{exp.company_name}
+                                <span className="position-title">&nbsp;({exp.position})</span>
+                                </div>
                             </div>
-                            <span className="position-title">Full Stack Developer </span>
-                            {/* <h2 className="project-title">{exp.project_name}</h2> */}
+                            <h2 className="project-title">{exp.project_name}</h2>
                             <div className="bullet-point">
                                 {
-                                    exp.descriptions.map((e,k)=>(
-                                        <li key={ind+k}> {e} </li>
+                                    exp.descriptions.map((e, k) => (
+                                        <li key={ind + k}> {e} </li>
                                     ))
                                 }
                             </div>
@@ -73,8 +91,8 @@ function Project() {
                                 Tech Used : &nbsp;
                                 {
                                     exp.tech_stack.map((s, j) => (
-                                        <span key={ind+j}>{s}
-                                        {j < exp.tech_stack.length-1 ? ', ' : '' }
+                                        <span key={ind + j}>{s}
+                                            {j < exp.tech_stack.length - 1 ? ', ' : ''}
                                         </span>
                                     ))
                                 }

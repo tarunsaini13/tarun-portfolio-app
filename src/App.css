@@ -72,25 +72,19 @@ div.title{
 
 .social-media-wrapper{
   display: flex;
-  gap: 15px;
+  gap: 2rem;
   margin: 1rem auto;
   max-width: fit-content;
 }
 
-.about-me{
-  width: 100%;
-  display: flex;
-  flex-direction: row-reverse;
-  text-align: center;
-  word-break: normal;
-}
-.about-me p{
-  width: 50%;
-  font-size: 22px;
+p.about-me{
+  /* width: 50%; */
+  font-size: 24px;
   font-weight: 600;
   color: #fff;
   line-height: 1.5;
   letter-spacing: 1px;
+  margin-top: 5px;
 }
 
 .skill-header {
@@ -102,8 +96,8 @@ div.title{
 }
 .welcome-text{
   font-family: 'Open Sans', sans-serif;
-  font-size: 3.5rem;
-  font-weight: 400;
+  font-size: 2rem;
+  font-weight: 600;
   margin: 0;
 }
 
@@ -132,12 +126,8 @@ div.title{
   vertical-align: middle;
 }
 
-.about-me{
-  font-size: 2rem;
-}
-
 .project-wrapper{
-  width: 800px;
+  max-width: 1200px;
   margin: 1rem auto;
 }
 .card {
@@ -150,7 +140,7 @@ div.title{
 }
 
 .company-name {
-  font-size: 1.8rem;
+  font-size: 18px;
   font-weight: 600;
   letter-spacing: 1px;
   color: #ffffff;
@@ -171,10 +161,10 @@ div.title{
 
 .project-title{
   letter-spacing: 1px;
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 600;
   color: #e39ff1;
-  margin: 10px 0;
+  margin: 0px 0;
 }
 .tech-stack-used {
   margin-top: 10px;
@@ -192,12 +182,19 @@ div.title{
   padding: 2px 0;
   font-size: 14px;
 }
-
-
+.w_0_1_wrapper{
+  display: flex;
+}
 @media (min-width: 768px) {
   .project-wrapper {
-    width: 800px;
+    max-width: 1200px;
   }
 }
-
+div.img-wrapper{
+  width: 35%;
+  text-align: center;
+}
+div.img-wrapper img{
+  border-radius: 10px;
+}
 
