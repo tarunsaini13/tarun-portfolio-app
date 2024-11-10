@@ -44,7 +44,7 @@ div.title{
   right: 22px;
   cursor: pointer;
 }
-.main-container {
+#main-container {
   overflow-y: auto;
   max-height: calc(100vh - 70px);
   margin-top: 70px;
