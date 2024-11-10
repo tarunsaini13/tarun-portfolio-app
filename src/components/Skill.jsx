@@ -5,6 +5,7 @@ function Skill(){
         {imageFilePath : '/img/java.svg', text : 'Java'},   
         {imageFilePath : '/img/nodejs.svg', text : 'NodeJs'},   
         {imageFilePath : '/img/express.svg', text : 'ExpressJs'},   
+        {imageFilePath : '/img/spring-icon.svg', text : 'Spring Boot'}, 
         {imageFilePath : '/img/mysql.svg', text : 'MySql'},   
         {imageFilePath : '/img/pgsql.svg', text : 'PostgreSql'},   
         {imageFilePath : '/img/angular.svg', text : 'Angular'},   

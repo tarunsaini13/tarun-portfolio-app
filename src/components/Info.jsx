@@ -1,5 +1,5 @@
 function Info() {
-    const expDifference = new Date() - new Date("2021-12-01T00:00:00+05:30");
+    const expDifference = new Date() - new Date("2021-08-01T00:00:00+05:30");
     const expNum = expDifference / (365 * 24 * 60 * 60 * 1000);
     return (
         <section className="info-section">
