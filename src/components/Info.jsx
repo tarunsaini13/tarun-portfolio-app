@@ -7,7 +7,7 @@ function Info() {
                 <h1 className="welcome-text">Welcome</h1>
                 <div className='w_0_1_wrapper'>
                     <div style={{ width: '65%' }}>
-                        <p className="about-me">Jai GuruDev
+                        <p className="about-me">
                         Hi, I'm Anonymous, a Full Stack Developer with over {expNum.toFixed(1)} years of experience based in India. I am passionate about crafting innovative web solutions and coding dynamic applications that make an impact.
                         </p>
                     </div>
