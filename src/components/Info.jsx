@@ -8,11 +8,11 @@ function Info() {
                 <div className='w_0_1_wrapper'>
                     <div style={{ width: '65%' }}>
                         <p className="about-me">
-                        Hi, I'm Anonymous, a Full Stack Developer with over {expNum.toFixed(1)} years of experience based in India. I am passionate about crafting innovative web solutions and coding dynamic applications that make an impact.
+                        Hi, I'm Tarun Saini, a Full Stack Developer with over {expNum.toFixed(1)} years of experience based in India. I am passionate about crafting innovative web solutions and coding dynamic applications that make an impact.
                         </p>
                     </div>
                     <div className="img-wrapper">
-                        <img src="/img/me.jpeg" alt="its-me" height="180px"/>
+                        <img src="/img/me.jpg" alt="its-me" height="180px"/>
                     </div>
                 </div>
 
