@@ -1,5 +1,5 @@
 function Info() {
-    const expDifference = new Date() - new Date("2021-08-01T00:00:00+05:30");
+    const expDifference = new Date() - new Date("2022-10-03T00:00:00+05:30");
     const expNum = expDifference / (365 * 24 * 60 * 60 * 1000);
     return (
         <section className="info-section">
@@ -18,12 +18,12 @@ function Info() {
 
                 <div className="social-media-wrapper">
                     <div>
-                        <a href="https://github.com/binaryWar?tab=repositories"  target="_blank" rel="noopener noreferrer">
+                        <a href="https://github.com/tarunsaini45"  target="_blank" rel="noopener noreferrer">
                             <img src="/img/github.svg" alt="" />
                         </a>
                     </div>
                     <div>
-                    <a href= "mailto: satyamsingh2004@gmail.com">
+                    <a href= "mailto: tarunsaini.iitd@gmail.com">
                         <img src="/img/mail.svg" alt="mail-image" />
                     </a>
                     </div>

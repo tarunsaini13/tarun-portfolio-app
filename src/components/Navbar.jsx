@@ -53,7 +53,7 @@ function Navbar({ homeRef, skillRef, projectRef }) {
                 </div>
                 <div className={`title ${activeHeader === 'skill' ? 'active' : ''}`} onClick={() => onHeaderClick('skill')}>
                     <span>
-                        skill
+                        Skill
                     </span>
                 </div>
                 <div className={`title ${activeHeader === 'exp' ? 'active' : ''}`} onClick={() => onHeaderClick('exp')}>

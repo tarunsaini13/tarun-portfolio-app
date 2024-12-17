@@ -3,40 +3,41 @@ function Project() {
         {
             company_name: "Cubastion Consulting Pvt. Ltd.",
             location: "Gurgaon, India",
-            duration: "Jan 2022 - Present",
-            project_name: "Digital Asset Finance Network",
+            duration: "Jun 2024 - Present",
+            project_name: "SSC-Content Authoring Tool",
             position : "Full Stack Developer",
             descriptions: [
-                "Built a microservices-based digital platform using Angular and Node.js to streamline lending and borrowing of digital assets, improving transaction tracking and liquidity management.",
-                "Designed and implemented an onboarding module and backend RESTful API, increasing real-time negotiation efficiency by 25% through automated RFQ creation and margin calls.",
-                "Integrated Copper payment API to secure loan transactions and implemented AWS KMS for data encryption, ensuring compliance and security.",
-                "Mentored junior developers, conducting code reviews and providing best practices, increasing the team's overall coding standards.",
-                "Implemented caching strategies using Memcached and database optimization, reducing API loading times by 30%, managing concurrent requests to prevent timeouts and duplicate transactions with lock mechanisms."
+                "Implemented Keycloak and Konga for secure authentication, role-based access control, and efficient API gateway management in the SSC content authoring tool.",
+                "Integrated MinIO for scalable cloud storage of multilingual content and exam-related assets, ensuring reliable and efficient data handling.",
+                "Designed dynamic workflows for user roles and granular permissions, streamlining the question lifecycle from authoring to evaluation and approval.",
+                "Optimized system performance and usability by enabling multilingual support, role-specific features, and secure asset management for seamless exam paper creation."
             ],
             tech_stack: [
-                "Angular", "Node.js", "PostgreSQL", "Express.js", "S3", "AWS KMS", "Kafka", "HTML", "CSS"
+                "Angular", "Node.js", "PostgreSQL", "Express.js", "S3", "draw.io", "Kafka", "MinIo", "KeyCloak"
             ]
         },
         {
             company_name: "Cubastion Consulting Pvt. Ltd.",
             location: "Gurgaon, India",
-            duration: "Jan 2022 - Present",
-            project_name: "Insurance Claims Platform",
+            duration: "July 2023 - May 2024",
+            project_name: "CLST-Digital Asset Lending Platform",
             position: "Full Stack Developer",
             descriptions: [
-                "Developed a responsive claims surveyor platform using Angular and Node.js, increasing claims processing efficiency by 30%.",
-                "Automated claim generation through a REST API, reducing manual data entry by 50% and controlling operational costs.",
-                "Incorporated OEM API updates to enhance motor insurance claim processes, streamlining workflows and decreasing manual effort by 40%."
+                "Built a microservices-based digital platform using Angular And Nodejs to streamline lending and borrowing of digital assets, improving transaction tracking and liquidity management.",
+                "Designed and implemented an onboarding module and backend RESTful API, increasing real-time negotiation efficiency by 25 percent through automated RFQ creation and margin calls.",
+                "Integrated Copper payment API to secure loan transactions, while implementing AWS KMS for data encryption, ensuring compliance and security.",
+                "Menterored junior developers, conducting code reviews and providing best practices, resulting in increase in the team’s overall coding standards.",
+                "Implemented caching strategies Using Memcached and database optimization which led decrease API loading times by 30 percent, managing concurrent requests to eliminate timeouts and prevent duplicate transactions with lock mechanisms."
             ],
             tech_stack: [
-                "Angular", "TypeScript", "HTML", "CSS", "Bootstrap 4", "Node.js", "Express.js"
+                "Angular", "Node.js", "PostgreSQL", "Express.js", "S3", "AWS KMS", "Kafka"
             ]
         },
         {
             company_name: "Cubastion Consulting Pvt. Ltd.",
             location: "Gurgaon, India",
-            duration: "Jan 2022 - Present",
-            project_name: "HRMS Portal",
+            duration: "Oct 2022 - Jun 2023",
+            project_name: "Xnet-HRMS Portal",
             position : "Full Stack Developer",
             descriptions: [
                 "Designed and implemented a Human Resource Management System, increasing operational efficiency by 25% through streamlined employee lifecycle and payroll processes.",
@@ -47,21 +48,21 @@ function Project() {
                 "Angular", "TypeScript", "HTML", "CSS", "Bootstrap 4", "Node.js", "Express.js"
             ]
         },
-        {
-            company_name: "Tutree India Pvt Ltd",
-            location: "India",
-            duration: "Jul 2021 - Jan 2022",
-            project_name: "Job Portal",
-            position : "Front end Developer",
-            descriptions: [
-                "Developed a Delivery Job Portal, resulting in a 20% increase in user engagement and traffic.",
-                "Optimized the job listing page to improve user experience and streamline job searches.",
-                "Created responsive HTML email templates to notify users of new delivery job postings, enhancing user retention."
-            ],
-            tech_stack: [
-                "JavaScript", "jQuery", "HTML", "CSS"
-            ]
-        }
+        // {
+        //     company_name: "Tutree India Pvt Ltd",
+        //     location: "India",
+        //     duration: "Jul 2021 - Jan 2022",
+        //     project_name: "Job Portal",
+        //     position : "Front end Developer",
+        //     descriptions: [
+        //         "Developed a Delivery Job Portal, resulting in a 20% increase in user engagement and traffic.",
+        //         "Optimized the job listing page to improve user experience and streamline job searches.",
+        //         "Created responsive HTML email templates to notify users of new delivery job postings, enhancing user retention."
+        //     ],
+        //     tech_stack: [
+        //         "JavaScript", "jQuery", "HTML", "CSS"
+        //     ]
+        // }
     ];
 
     return (
