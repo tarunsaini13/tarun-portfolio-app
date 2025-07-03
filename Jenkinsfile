@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_LABEL = "khatabook-f"
+        IMAGE_LABEL = "tarun-portfolio-app"
         IMAGE_NAME = "ghcr.io/binarywar/tarun-portfolio"
         IMAGE_TAG = "latest"
         CREDENTIAL_ID = "tarun-github-cred"
